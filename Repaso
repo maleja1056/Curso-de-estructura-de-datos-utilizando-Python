@@ -1,0 +1,26 @@
+def promedio_final(a,b,c,d,e):
+ 
+ promedio =(a+b+c+d+e)/5 
+
+ if promedio < 30:
+  print("reprobo el semestre")
+ else:
+   print("aprobo el semestre el semestre") 
+
+   return promedio
+
+
+
+
+print("este sistema es para ver su promedio en la universidad")
+
+nombre = input("para empezar ¿cual es su nomebre?") 
+nota_calculo= float(input(nombre+ " digite su nota final de calculo "))
+nota_fisica= float(input(nombre+ " digite su nota final de fisica "))
+nota_ingles= float(input(nombre+" digite su nota final de ingles "))
+nota_discretas= float(input(nombre+" digite su nota final de discretas "))
+nota_estrucuras= float(input(nombre+" digite su nota final de estructuras "))
+
+promedio =promedio_final(nota_calculo,nota_fisica,nota_ingles,nota_discretas,nota_estrucuras)
+
+print(f"El peromedio del estudiante es : {promedio}")
