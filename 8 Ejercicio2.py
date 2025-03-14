@@ -5,14 +5,12 @@ sea valido debe calcular la cantidad de propina el total a pagar cuenta mas prop
 brindele al usuario la posibllidad de eleguir los productos de un menu antes de calcular  la propina
 
 """
-
+# Maria Alejandra Fajardo.2245011
 # ingreso de datos 
 
-nombre= str(input("digite su nombre "))# tipo str 
-while not nombre.isalpha():
-    nombre= str(input("digite su nombre "))
+nombre=(input("digite su nombre "))# tipo str 
 edad=int(input("digite su edad "))#tipo int
-totalcuenta = float()
+totalcuenta = float()#tipo float
 
 
 
@@ -67,7 +65,7 @@ if edad<=15:
 elif 15<=25:
     print("Come mas verduras")
 elif 25<=50:
-    print("Bajale a lo carboidratos")
+    print("Bajale a lo carbohidratos")
 elif 50<90:
     print("come comida casera no fritos")
 else:
